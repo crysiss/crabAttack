@@ -31,6 +31,8 @@
     <object>objects\Stone</object>
     <object>objects\senzor</object>
     <object>objects\Big_Crap</object>
+    <object>objects\Game_Over_Panel</object>
+    <object>objects\Just_help</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Wave_1</timeline>
