@@ -16,6 +16,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
