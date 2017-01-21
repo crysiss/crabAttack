@@ -8,13 +8,22 @@
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\sprite4</sprite>
+    <sprite>sprites\sprite5</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Crab</object>
     <object>objects\wall</object>
     <object>objects\crab_gen</object>
+    <object>objects\arm</object>
+    <object>objects\Stone</object>
+    <object>objects\senzor</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\timeline0</timeline>
