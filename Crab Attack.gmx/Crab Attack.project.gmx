@@ -20,10 +20,13 @@
   <paths name="paths">
     <path>paths\path1</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Crab</object>
     <object>objects\wall</object>
-    <object>objects\crab_gen</object>
+    <object>objects\Game_panel</object>
     <object>objects\arm</object>
     <object>objects\Stone</object>
     <object>objects\senzor</object>
