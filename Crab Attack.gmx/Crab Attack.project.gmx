@@ -19,9 +19,12 @@
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
+    <background>background\background3</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
+    <path>paths\path2</path>
+    <path>paths\path3</path>
   </paths>
   <fonts name="fonts">
     <font>fonts\font0</font>
@@ -41,6 +44,8 @@
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Wave_1</timeline>
+    <timeline>timelines\Wave_2</timeline>
+    <timeline>timelines\Wave_</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Start_Menu</room>
