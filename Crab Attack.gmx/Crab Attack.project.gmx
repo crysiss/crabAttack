@@ -12,11 +12,14 @@
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\B1</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path1</path>
+  </paths>
   <objects name="objects">
     <object>objects\Crab</object>
     <object>objects\wall</object>
@@ -24,9 +27,10 @@
     <object>objects\arm</object>
     <object>objects\Stone</object>
     <object>objects\senzor</object>
+    <object>objects\Big_Crap</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\timeline0</timeline>
+    <timeline>timelines\Wave_1</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\room0</room>
