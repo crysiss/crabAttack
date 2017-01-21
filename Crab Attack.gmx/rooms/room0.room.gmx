@@ -52,12 +52,10 @@
   </views>
   <instances>
     <instance objName="Game_panel" x="160" y="32" name="inst_CA7A1CC1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="arm" x="224" y="416" name="inst_0F3F154E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="senzor" x="64" y="768" name="inst_047C3BCB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="senzor" x="64" y="96" name="inst_1C72B343" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="senzor" x="192" y="96" name="inst_CF18C7D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="senzor" x="192" y="768" name="inst_4E202411" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Stone" x="192" y="384" name="inst_83903E3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall" x="1344" y="64" name="inst_ABC979A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall" x="1344" y="0" name="inst_38A58FB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall" x="1344" y="32" name="inst_5ADE550F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -84,6 +82,7 @@
     <instance objName="wall" x="1344" y="704" name="inst_CEDAB8F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="wall" x="1344" y="736" name="inst_B511F4A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Just_help" x="384" y="96" name="inst_947AF15C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="arm" x="32" y="384" name="inst_682D0D10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

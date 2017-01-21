@@ -11,13 +11,13 @@
     <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
@@ -25,37 +25,42 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>010000010</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
+            <string>up=false
+</string>
           </argument>
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="senzor">
+    <event eventtype="3" enumb="2">
       <action>
         <libid>1</libid>
-        <id>115</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
         <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_bounce</functionname>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
+            <kind>1</kind>
+            <string>if(up==true){
+    if(image_angle&gt;=45){
+        up=false    
+    }
+    image_angle +=1
+}else{
+    if(image_angle&lt;=-45){
+        up=true
+        
+    }
+    image_angle-=1
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -179,117 +184,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///activate stone
-with(Stone){
-    active = true
+            <string>///Create Stone
+var target_arm = instance_nearest(x,y,arm)
+global.dir = image_angle
+//var bullet = 
+instance_create(target_arm.x,target_arm.y,Stone)
+
+/*with(bullet){
+    speed=15
+    activate = true
+    direction = global.dir
 }
 </string>
           </argument>
         </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>101</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_move</functionname>
-        <codestring></codestring>
-        <whoName>Stone</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>000001000</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>8</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>612</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>-1</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_if_variable</functionname>
-        <codestring></codestring>
-        <whoName>Game_panel</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>Ammo</string>
-          </argument>
-          <argument>
-            <kind>0</kind>
-            <string>0</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>2</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>422</id>
-        <kind>1</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///Create Stone
-var target_arm = instance_nearest(x,y,arm)
-
-instance_create(target_arm.x,target_arm.y,Stone)
-</string>
-          </argument>
-        </arguments>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>424</id>
-        <kind>2</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>0</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
       <action>
         <libid>1</libid>
