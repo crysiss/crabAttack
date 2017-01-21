@@ -13,6 +13,8 @@
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\B1</sprite>
+    <sprite>sprites\sprite9</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -34,12 +36,15 @@
     <object>objects\Big_Crap</object>
     <object>objects\Game_Over_Panel</object>
     <object>objects\Just_help</object>
+    <object>objects\object9</object>
+    <object>objects\object10</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Wave_1</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Start_Menu</room>
+    <room>rooms\Game_Play</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
