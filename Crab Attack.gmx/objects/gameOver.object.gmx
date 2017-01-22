@@ -65,7 +65,7 @@
         <arguments>
           <argument>
             <kind>12</kind>
-            <font>font2</font>
+            <font>font1</font>
           </argument>
           <argument>
             <kind>4</kind>
@@ -89,7 +89,7 @@
         <arguments>
           <argument>
             <kind>13</kind>
-            <string>255</string>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
@@ -131,7 +131,7 @@
           </argument>
           <argument>
             <kind>0</kind>
-            <string>100</string>
+            <string>300</string>
           </argument>
         </arguments>
       </action>
@@ -189,7 +189,7 @@
         <arguments>
           <argument>
             <kind>13</kind>
-            <string>8388863</string>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
@@ -289,7 +289,7 @@
         <arguments>
           <argument>
             <kind>13</kind>
-            <string>255</string>
+            <string>16777215</string>
           </argument>
         </arguments>
       </action>
@@ -323,7 +323,7 @@
         <arguments>
           <argument>
             <kind>0</kind>
-            <string>463</string>
+            <string>450</string>
           </argument>
           <argument>
             <kind>0</kind>
