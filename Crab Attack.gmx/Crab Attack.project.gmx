@@ -4,7 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\button_press</sound>
+    <sound>sound\crab_hit_01</sound>
+    <sound>sound\crab_hit_02</sound>
+    <sound>sound\crab_wave_start</sound>
+    <sound>sound\game_over1</sound>
+    <sound>sound\game_start_intro_splash_screen_mono</sound>
+    <sound>sound\level_complete1</sound>
+    <sound>sound\level_start_mono</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\sprite1</sprite>
@@ -15,11 +24,14 @@
     <sprite>sprites\B1</sprite>
     <sprite>sprites\sprite9</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\sprite11</sprite>
+    <sprite>sprites\sprite12</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
+    <background>background\background4</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
@@ -29,6 +41,7 @@
   <fonts name="fonts">
     <font>fonts\font0</font>
     <font>fonts\font1</font>
+    <font>fonts\font2</font>
   </fonts>
   <objects name="objects">
     <object>objects\Crab</object>
@@ -43,6 +56,10 @@
     <object>objects\Just_help</object>
     <object>objects\Button_Start</object>
     <object>objects\Crab_Label</object>
+    <object>objects\gameOver</object>
+    <object>objects\object13</object>
+    <object>objects\Level_Com</object>
+    <object>objects\fontan</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Level_1</timeline>
@@ -50,10 +67,10 @@
     <timeline>timelines\Wave_</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Game_Play</room>
     <room>rooms\Start_Menu</room>
-    <room>rooms\Game_Over</room>
+    <room>rooms\Game_Play</room>
     <room>rooms\Level_Complete</room>
+    <room>rooms\Game_Over</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
