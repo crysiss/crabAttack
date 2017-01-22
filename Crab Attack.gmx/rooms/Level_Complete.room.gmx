@@ -56,7 +56,9 @@
     <instance objName="fontan" x="1184" y="96" name="inst_C0EE53EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="fontan" x="1184" y="640" name="inst_44BE3C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="fontan" x="96" y="640" name="inst_9B2446DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object13" x="544" y="608" name="inst_E444FBD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object13" x="448" y="480" name="inst_E444FBD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object19" x="256" y="480" name="inst_5DB953E6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Button_Start" x="640" y="480" name="inst_0B47A191" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

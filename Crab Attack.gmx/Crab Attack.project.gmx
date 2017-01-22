@@ -13,6 +13,7 @@
     <sound>sound\game_start_intro_splash_screen_mono</sound>
     <sound>sound\level_complete1</sound>
     <sound>sound\level_start_mono</sound>
+    <sound>sound\crab_pinch</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
@@ -26,7 +27,10 @@
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\sprite11</sprite>
     <sprite>sprites\sprite12</sprite>
-    <sprite>sprites\sprite13</sprite>
+    <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\sprite15</sprite>
+    <sprite>sprites\sprite16</sprite>
+    <sprite>sprites\sprite17</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -48,6 +52,7 @@
     <object>objects\Crab</object>
     <object>objects\wall</object>
     <object>objects\Game_panel</object>
+    <object>objects\Game_Panel_2</object>
     <object>objects\arm</object>
     <object>objects\Stone</object>
     <object>objects\senzor</object>
@@ -58,6 +63,10 @@
     <object>objects\object13</object>
     <object>objects\Level_Com</object>
     <object>objects\fontan</object>
+    <object>objects\object16</object>
+    <object>objects\object17</object>
+    <object>objects\object18</object>
+    <object>objects\object19</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Level_1</timeline>
@@ -68,7 +77,10 @@
     <room>rooms\Start_Menu</room>
     <room>rooms\Game_Play</room>
     <room>rooms\Level_Complete</room>
+    <room>rooms\Credits</room>
     <room>rooms\Game_Over</room>
+    <room>rooms\Story</room>
+    <room>rooms\Level2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
