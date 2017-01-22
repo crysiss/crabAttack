@@ -28,10 +28,12 @@
   </paths>
   <fonts name="fonts">
     <font>fonts\font0</font>
+    <font>fonts\font1</font>
   </fonts>
   <objects name="objects">
     <object>objects\Crab</object>
     <object>objects\wall</object>
+    <object>objects\Wall_Label</object>
     <object>objects\Game_panel</object>
     <object>objects\arm</object>
     <object>objects\Stone</object>
@@ -39,17 +41,19 @@
     <object>objects\Big_Crap</object>
     <object>objects\Game_Over_Panel</object>
     <object>objects\Just_help</object>
-    <object>objects\object9</object>
-    <object>objects\object10</object>
+    <object>objects\Button_Start</object>
+    <object>objects\Crab_Label</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\Wave_1</timeline>
+    <timeline>timelines\Level_1</timeline>
     <timeline>timelines\Wave_2</timeline>
     <timeline>timelines\Wave_</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Start_Menu</room>
     <room>rooms\Game_Play</room>
+    <room>rooms\Start_Menu</room>
+    <room>rooms\Game_Over</room>
+    <room>rooms\Level_Complete</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
