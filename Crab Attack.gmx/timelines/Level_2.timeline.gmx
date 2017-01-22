@@ -13,7 +13,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>Game_Panel_2</whoName>
+        <whoName>Game_panel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -471,7 +471,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>Game_Panel_2</whoName>
+        <whoName>Game_panel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1164,7 +1164,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>Game_Panel_2</whoName>
+        <whoName>Game_panel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -1764,7 +1764,7 @@
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>Game_Panel_2</whoName>
+        <whoName>Game_panel</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
@@ -2533,7 +2533,7 @@
         <arguments>
           <argument>
             <kind>10</kind>
-            <object>Big_Crap</object>
+            <object>object26</object>
           </argument>
           <argument>
             <kind>0</kind>
