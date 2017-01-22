@@ -26,6 +26,7 @@
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\sprite11</sprite>
     <sprite>sprites\sprite12</sprite>
+    <sprite>sprites\sprite13</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -46,16 +47,13 @@
   <objects name="objects">
     <object>objects\Crab</object>
     <object>objects\wall</object>
-    <object>objects\Wall_Label</object>
     <object>objects\Game_panel</object>
     <object>objects\arm</object>
     <object>objects\Stone</object>
     <object>objects\senzor</object>
     <object>objects\Big_Crap</object>
     <object>objects\Game_Over_Panel</object>
-    <object>objects\Just_help</object>
     <object>objects\Button_Start</object>
-    <object>objects\Crab_Label</object>
     <object>objects\gameOver</object>
     <object>objects\object13</object>
     <object>objects\Level_Com</object>
