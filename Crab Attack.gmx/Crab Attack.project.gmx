@@ -31,12 +31,18 @@
     <sprite>sprites\sprite15</sprite>
     <sprite>sprites\sprite16</sprite>
     <sprite>sprites\sprite17</sprite>
+    <sprite>sprites\sprite18</sprite>
+    <sprite>sprites\sprite19</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
     <background>background\background2</background>
     <background>background\background3</background>
     <background>background\background4</background>
+    <background>background\background5</background>
+    <background>background\background6</background>
+    <background>background\background7</background>
+    <background>background\background8</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path1</path>
@@ -54,6 +60,7 @@
     <object>objects\Game_panel</object>
     <object>objects\Game_Panel_2</object>
     <object>objects\arm</object>
+    <object>objects\arm2</object>
     <object>objects\Stone</object>
     <object>objects\senzor</object>
     <object>objects\Big_Crap</object>
@@ -67,19 +74,24 @@
     <object>objects\object17</object>
     <object>objects\object18</object>
     <object>objects\object19</object>
+    <object>objects\object22</object>
+    <object>objects\object24</object>
+    <object>objects\object23</object>
+    <object>objects\object25</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Level_1</timeline>
     <timeline>timelines\Wave_2</timeline>
     <timeline>timelines\Wave_</timeline>
+    <timeline>timelines\Level_2</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Start_Menu</room>
+    <room>rooms\Story</room>
     <room>rooms\Game_Play</room>
     <room>rooms\Level_Complete</room>
     <room>rooms\Credits</room>
     <room>rooms\Game_Over</room>
-    <room>rooms\Story</room>
     <room>rooms\Level2</room>
   </rooms>
   <help>
